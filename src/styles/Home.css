@@ -1,0 +1,260 @@
+.home {
+  width: 100%;
+  align-items: center;    
+  color: #409488;  
+  display: flex;
+  flex-direction: column;
+  }  
+.about {
+  width: 100%;
+  height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: ivory;
+  color: #FB7D3A ;
+}
+.about h2 { 
+  font-size: 80px;
+  color: #4E432F ;
+  height: 50px;
+}
+.about .prompt {
+  width: 40%;
+  font-size: 30px;
+}
+.prompt svg {
+  font-size: 60px;
+  margin: 5px;
+  color: #B5B4A6 ;
+}
+.skills {    
+  font-size: 35px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #dbcebf;  
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.skills h1 {
+  color: #BF5A1B    
+}
+.skills .list {
+  list-style: none;
+  width: 60%;
+  padding-left: 0px;    
+}
+.list span {
+  font-size: 20px;
+}
+
+/* <--Bird--> */
+.bird{
+  background-color: black;
+  height: 80px;
+  width: 100px;
+  position: absolute;
+  top:20%;
+  left:20%;
+  border-radius: 100px 100px 0px 0px;
+  animation: fly 2s infinite;
+}
+@keyframes fly {
+  50%{transform:translateY(50px);}
+}
+.body{
+  background-color: #FB7D3A ;
+  height: 100px;
+  width: 200px;
+  position: relative;
+  top:80px;
+  right: 100px;
+  border-radius: 0px 0px 200px 200px;  
+}
+.feather1{
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 60px solid teal;
+  position:relative;
+  right: 140px;
+  bottom: 70px;
+  transform: rotate(-45deg)
+}
+.eye{
+  background-color: white;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  position: relative;
+  bottom: 130px;
+  left: 50px;
+}
+.eyeball{
+  background-color: black;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  position: relative;
+  top: 4px;
+  left: 4px;
+}
+.beak {  
+  height: 0;
+  width: 0;
+  border-top:15px solid transparent;
+  border-bottom:15px solid transparent;
+  border-left:30px solid #ffc400;
+  position: relative;
+  bottom: 140px;
+  left: 100px;
+}
+.feather2{
+  background-color: #4E432F;
+  width: 170px;
+  height: 85px;
+  border-radius: 0px 0px 170px 170px;  
+  position:relative;
+  right: 120px;
+  bottom: 140px;
+  animation: flap 1s infinite;
+  transform-origin: right;
+}
+@keyframes flap {
+  50%{
+    transform: rotate(20deg);
+  }
+}
+.inner {
+  background-color: teal;
+  height: 70px;
+  width: 140px;
+  border-radius: 0px 0px 120px 120px;
+  position: relative;
+  left: 15px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  
+  .about h2 {
+    font-size: 40px;
+  }
+
+  .about .prompt {
+    margin-top: 10px;
+    font-size: 20px;
+    width: 80%;
+  }
+
+  .skills {
+    text-align: center;
+  }
+  .list {
+    padding: 0;
+  }
+
+  .skills h2 {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width:800px){
+  .about {
+    height: 80vh;
+    justify-content: flex-start;
+    padding-top: 15rem;
+  }
+  .bird{
+    background-color: black;
+    height:40px;
+    width: 50px;
+    position: absolute;
+    top:60%;
+    left:50%;
+    border-radius: 100px 100px 0px 0px;
+    animation: fly 2s infinite;
+  }
+  @keyframes fly {
+    50%{transform:translateY(50px);}
+  }
+  .body{
+    background-color: #FB7D3A ;
+    height: 50px;
+    width: 100px;
+    position: relative;
+    top:40px;
+    right: 50px;
+    border-radius: 0px 0px 200px 200px;  
+  }
+  .feather1{
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 60px solid teal;
+    position:relative;
+    right: 80px;
+    bottom: 60px;
+    transform: rotate(-45deg)
+  }
+  .eye{
+    background-color: white;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 95px;
+    left: 30px;
+  }
+  .eyeball{
+    background-color: black;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    position: relative;
+    top: 2px;
+    left: 2px;
+  }
+  .beak {  
+    height: 0;
+    width: 0;
+    border-top:7.5px solid transparent;
+    border-bottom:7.5px solid transparent;
+    border-left:15px solid #ffc400;
+    position: relative;
+    bottom: 100px;
+    left: 50px;
+  }
+  .feather2{
+    background-color: #4E432F;
+    width: 85px;
+    height: 42.5px;
+    border-radius: 0px 0px 170px 170px;  
+    position:relative;
+    right: 60px;
+    bottom: 100px;
+    animation: flap 1s infinite;
+    transform-origin: right;
+  }
+  @keyframes flap {
+    50%{
+      transform: rotate(20deg);
+    }
+  }
+  .inner {
+    background-color: teal;
+    height: 35px;
+    width: 70px;
+    border-radius: 0px 0px 120px 120px;
+    position: relative;
+    left: 9px;
+  }
+}

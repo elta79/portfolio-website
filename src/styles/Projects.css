@@ -1,0 +1,50 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  }
+  
+.projectTitle {
+  text-align: center;
+  color: #3e497a;
+  font-size: 40px;
+  font-weight: bolder;    
+}
+
+.projectList {    
+  padding: 2.5rem;
+  width: auto;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(25rem, 100%), 1fr));
+  gap: 1.5rem;  
+}
+  
+  /* MENU ITEM STYLING */
+  
+.projectItem {    
+  aspect-ratio: 1/1;
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+.projectItem:hover {
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease-in;
+  cursor: pointer;
+}
+
+.projectItem .bgImage {
+  aspect-ratio: 1/1;
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.projectItem h1 {
+  font-size: 25px;
+}
+
