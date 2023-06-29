@@ -1,9 +1,9 @@
-import Bird from '../assets/bird.jpeg'
-import PregCalc from '../assets/pregCalc.png'
-import FBCWeb from '../assets/FBCWeb.png'
-import Chores from '../assets/chores.png'
-import Placenta from '../assets/placenta.png'
-import Portfolio from'../assets/portfolio.png'
+import Bird from '/images/bird.jpeg'
+import PregCalc from '/images/pregCalc.png'
+import FBCWeb from '/images/FBCWeb.png'
+import Chores from '/images/chores.png'
+import Placenta from '/images/placenta.png'
+import Portfolio from'/images/portfolio.png'
 
 export const ProjectList = [
     {
