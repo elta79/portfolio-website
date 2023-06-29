@@ -170,14 +170,14 @@
   .about {
     height: 80vh;
     justify-content: flex-start;
-    padding-top: 15rem;
+    padding-top: 2.5rem;
   }
   .bird{
     background-color: black;
     height:40px;
     width: 50px;
     position: absolute;
-    top:30%;
+    top:70%;
     left:50%;
     border-radius: 100px 100px 0px 0px;
     animation: fly 2s infinite;

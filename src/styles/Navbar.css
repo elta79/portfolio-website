@@ -35,7 +35,7 @@
 }
 
 .toggleButton{
-  display: none;  
+  display: none;   
 }
 
 /* <--Screens 800px or less--> */
@@ -52,6 +52,7 @@
     width: 50%;
     height: 50%;
     display: flex;    
+    
   }    
   .toggleButton svg {
     font-size: 50px;
@@ -62,6 +63,7 @@
     border: none;
     color: ivory;
     cursor: pointer;
+    padding: 0;
   } 
   .links{
     display: none;
