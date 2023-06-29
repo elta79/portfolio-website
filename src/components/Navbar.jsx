@@ -17,7 +17,7 @@ function Navbar() {
     
     <div className="navbar" id={expandNavbar ? "open" : "closed"}>
       <div className='navbar-items'>
-        <img src={eltaLogo} alt='elta Logo' className='logo'/> 
+        <img src={eltaLogo} alt='elta Logo' className='logo'/>                
         <div className="links">        
           <Link to="/">Home</Link>
           <Link to="/projects">Projects</Link>

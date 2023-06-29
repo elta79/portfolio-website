@@ -42,19 +42,17 @@
 @media only screen and (max-width:800px){
   .navbar-items {
     min-width: 85vw;
-    min-height: 80vh;
+    min-height: 80vh;    
   }
   .logo{
     max-height: 6vh;
-    padding: 2rem 0 2rem 0;
-  }
-   
+    padding: 2rem 0 2rem 1rem;
+  }   
   .toggleButton {
     width: 50%;
     height: 50%;
-    display: flex;
-  }
-    
+    display: flex;    
+  }    
   .toggleButton svg {
     font-size: 50px;
   }
