@@ -13,7 +13,7 @@ function ProjectDisplay() {
       <div className='col-01'>
         <h1 className='project-item'>{project.name}</h1>
         <img className='project-item' src={project.image} />
-        <a href={project.webLink}>{project.webLink}</a>
+        <a href={project.webLink}>Check it out here!</a>
         <h1 className='project-item'><b>Skills:</b></h1>
         <div className='project-item'> 
           <p>{project.skills} </p>
