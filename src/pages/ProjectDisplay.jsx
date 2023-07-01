@@ -10,10 +10,13 @@ function ProjectDisplay() {
   const project = ProjectList[id]
   return (
     <div className='project'>
-      <div className='col-01'>
+      <div className='col-01'>        
         <h1 className='project-item'>{project.name}</h1>
-        <img className='project-item' src={project.image} />
-        <a href={project.webLink}>Check it out here!</a>
+        <div className='project-item-container' >
+          <img className='project-item' src={project.image} />
+          <a href={project.webLink} className='project-item'>Check it out here!</a>
+        </div>
+        
         <h1 className='project-item'><b>Skills:</b></h1>
         <div className='project-item'> 
           <p>{project.skills} </p>

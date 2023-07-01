@@ -31,7 +31,8 @@ export const ProjectList = [
             challenges:'The biggest frustration for this site was deciding when to use grid vs flex. Optimizing the bird animation for mobile was tedious but worth it!',
             learned:'Birds make a beautiful color pallette! I learned more about React-Router (enables client-side routing), React-player (component for playing URLs on the web page) and practiced using props.  The project page layout was designed in Figma and the logo was designed in Adobe Illustrator.'
         },
-        gitLink: 'https://github.com/elta79/estimatedDueDateCalculator_JavaScript'
+        gitLink: 'https://github.com/elta79/estimatedDueDateCalculator_JavaScript',
+        webLink: 'https://fantastic-lollipop-308cd7.netlify.app'
     },
     {
         key: 3,
@@ -44,7 +45,8 @@ export const ProjectList = [
             challenges:'I struggled to solve the JavaScript "one day" discrepancy when using JavaScript Date objects.  I feel this code could be condensed even further by moving the innerHTML properties outside of the if-else statement, but further exploration is needed to make it work. ',
             learned:'Calculations with dates is easier using Python vs JavaScript, mostly because of Pythons dayOfYear function.  In JavaScript, I had to convert all dates to milliseconds (epoch time) and maneuver through timezones to get a correct date result. '
         },
-        gitLink: 'https://github.com/elta79/estimatedDueDateCalculator_JavaScript'
+        gitLink: 'https://github.com/elta79/estimatedDueDateCalculator_JavaScript',
+        webLink: 'https://resonant-zabaione-1c366a.netlify.app'
     },
     {
         key:4,
