@@ -1,0 +1,19 @@
+.WIP {
+    color: orange;
+}
+.container--experience {
+    height: 100vh;
+}
+.education {
+    padding: 1rem;
+}
+.container--employment{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    /* border: 2px solid purple; */
+    margin: 0 20%;
+}
+.employment{
+    text-align: left;    
+}
