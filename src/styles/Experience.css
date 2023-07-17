@@ -1,19 +1,42 @@
-.WIP {
-    color: orange;
-}
+
 .container--experience {
-    height: 100vh;
+    height: auto;
+    background-color: ivory;
+    padding-top: 1rem;
+}
+h1 {
+    color: #4E432F;
+    font-size: 40px;
+}
+h2 {
+    color: #FB7D3A;
+    font-size: 50px;
+}
+h3{
+    color: #B5B4A6;
+    font-size: 37px;
+}
+.title {
+    font-size: 1.5em;
 }
 .education {
     padding: 1rem;
+    color: #727167;
 }
 .container--employment{
     display: flex;
     flex-direction: column;
-    margin: auto;
-    /* border: 2px solid purple; */
-    margin: 0 20%;
+    
+    margin: 0 10%;
 }
 .employment{
-    text-align: left;    
+    text-align: left;  
+    background: #dbcebf;
+    padding: 1rem 1rem;  
+}
+ul {
+    text-align: left;
+}
+li {
+    padding: 0.75rem 0;
 }
