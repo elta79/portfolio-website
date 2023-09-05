@@ -8,7 +8,7 @@ h1 {
     color: #4E432F;
     font-size: 40px;
 }
-h2 {
+.title--name {
     color: #FB7D3A;
     font-size: 50px;
 }
@@ -16,7 +16,7 @@ h3{
     color: #B5B4A6;
     font-size: 37px;
 }
-.title {
+.title--employment{
     font-size: 1.5em;
 }
 .education {

@@ -9,8 +9,8 @@ function Experience() {
   return (
     <div className='container--experience'>
       
-      <h1>Experience</h1>
-      <h2>Emily Arnold</h2>
+      <h1 >Experience</h1>
+      <h2 className='title--name'>Emily Arnold</h2>
       <h3>Front-end Developer</h3>
       
       <div className='education'>        
@@ -18,7 +18,7 @@ function Experience() {
       </div>
 
       <div className='container--employment'>
-        <h4 className='title'>Employment</h4>
+        <h4 className='title--employment'>Employment</h4>
         <h4 className='employment'>Freelance Web Developer | Present</h4>
         <ul>
           <li>Designed and deployed a simple website for a small business, resulting in a 15% rise in customer engagement within the first month.</li>
