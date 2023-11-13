@@ -57,7 +57,7 @@ export const ProjectList = [
         notes: {
             objective:'Create a website (using Bootstrap) to serve as a prototype for a medical facility website.', 
             challenges:'I learned how to incorporate carousels, parallax, and accordion features, but I really struggled to get the styling right.  And the code for this site got a little overwhelming and repetitive.',
-            learned:'I wrote the code for this site over a year ago, and looking back I realize that Bootstrap is not my jam.  Also, I would rewrite this using React and take advantage of reusable components.'
+            learned:'I wrote the code for this site over a year ago, and looking back I realize that there is a lot of room for refactoring to implement reuseable components'
         },
         gitLink: 'https://github.com/elta79/FBCWebsitePrototype'
     },
