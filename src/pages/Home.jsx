@@ -56,9 +56,10 @@ function Home() {
         
           <h2>Bio</h2>
           <img src='/images/headshot.png' id='img-headshot'></img>
-          <p className='bio-info' id="first-p">I am a Software Engineer with experience at a startup in the Healthcare Industry. The various roles I have held at this startup have honed my skills as a collaborative and creative problem solver and have taught me the importance of versatility and adaptability. I have a bachelor's degree in software development, and I continue my learning through Scrimba’s front-end developer career path and building projects to level up my technical skills.</p>
-          <p className='bio-info'>Outside of coding, I enjoy spending time with family and friends, whether it be playing games, listening to audiobooks, or being outdoors. I also enjoy comedy, coding, and true crime podcasts – all the things that keep me up at night.</p>
-          <p className='bio-info'>I am exploring job opportunities where I can add significant value and foster continuous growth as a software engineer. If you have an exciting opportunity that aligns with my skills and experience, or if you just want to connect, please feel free to reach out to me.</p>  
+          <p className='bio-info' id="first-p">I am a versatile software engineer with a degree in CS and a strong professional foundation in Operations, IT administration, and website design with a specialization in front-end development. </p>
+          <p className='bio-info'>Through my 15+ years of experience in various industries, including healthcare and workforce development, I have developed strong problem-solving skills and adaptability. I excel in innovating software features, optimizing data collection processes, and creating intuitive user experiences. I am proficient in React, JavaScript, HTML, and CSS, and passionate about continuous learning and growth. I have continued to expand my skillset beyond my B.S. through web development courses and projects, as well as freelance website design. I am looking to contribute to a team working on impactful projects in digital health companies, to drive meaningful value for patients and customers. </p>
+          <p className='bio-info'>In my free time, I enjoy playing games, listening to podcasts/audiobooks, and spending time outdoors with family.</p>
+          <p className='bio-info'>Let's connect and explore opportunities to collaborate!</p>  
         </div>
         <div className='skills-container'>
           <h2>Skills</h2>
@@ -74,9 +75,10 @@ function Home() {
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original-wordmark.svg" className='icon-skills'/>
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" className='icon-skills'/>
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"className='icon-skills'/>
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" className='icon-skills'/>            
-            {/* <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain-wordmark.svg" className='icon-skills'/>  
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain-wordmark.svg" className='icon-skills'/>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" className='icon-skills'/>              
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original-wordmark.svg" className='icon-skills'/>           
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original-wordmark.svg" className='icon-skills'/>
+            {/* <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain-wordmark.svg" className='icon-skills'/>              
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" className='icon-skills'/>
             <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original-wordmark.svg" className='icon-skills'/> */}
           </div>
@@ -86,7 +88,7 @@ function Home() {
 
       </div>
       <div className='contact-container'>
-      <h2>Contact</h2>
+        <h2>Contact</h2>
         <form ref={form} onSubmit={sendEmail}>           
           <input 
             type="text" 
