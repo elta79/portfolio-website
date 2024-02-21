@@ -12,7 +12,7 @@ function Footer() {
           <a href='https://github.com/elta79' target='_blank'><GitHubIcon /></a>
           <a href='mailto: elta7679@gmail.com'><EmailIcon /></a> 
         </div>
-        <p> &copy; 2023 emilyarnold</p>
+        <p> &copy; 2024 emilyarnold</p>
     </div>
   )
 }
