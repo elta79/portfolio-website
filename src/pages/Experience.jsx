@@ -11,7 +11,7 @@ function Experience() {
       
       <h1 >Experience</h1>
       <h2 className='title--name'>Emily Arnold</h2>
-      <h3>Front-end Developer</h3>
+      <h3>Front-End Developer</h3>
       
       <div className='education'>        
         <h4>B.Sc Software Development | 2021 | Hodges University, Naples, FL</h4>
@@ -19,22 +19,23 @@ function Experience() {
 
       <div className='container--employment'>
         <h4 className='title--employment'>Employment</h4>
-        <h4 className='employment'>Freelance Web Developer | Present</h4>
+        <h4 className='employment'>Front-End Web Developer | Freelance | Aug 2023 - Present</h4>
         <ul>
-          <li>Designed and deployed a simple website for a small business, resulting in a 15% rise in customer engagement within the first month.</li>
-          <li>Increased customer contact opportunities by implementing a user-friendly contact form using EmailJS, resulting in a 30% boost in inquiries received by email.</li>
+          <li>Designed and deployed a website (NaplesPlacenta.com) for a maternal healthcare business. Focused on a consistent color scheme and visual elements to satisfy customer requirements. Tech stack: React, JavaScript, HTML, and CSS.</li>
+          <li>Produced a 30% increase in client inquiries by deploying a user-friendly contact form using EmailJS.</li>
         </ul>
-        <h4 className='employment'>Financial Director/Office Manager | Family Birth Services, Inc | 2001-Present</h4>
+        <h4 className='employment'>Financial Director/IT Admin | Family Birth Services, Inc | Jan 2001-Present</h4>
         <ul>
-          <li>Planned, developed, tested, deployed, and maintained several versions of the website (WordPress, Squarespace, HTML, CSS, Bootstrap, JavaScript).  </li>
-          <li>Created organizational systems to improve efficiency in the office using free software, software we already owned, or creating small task programs, leading to an annual savings of a minimum of $15,000 by eliminating the need for additional hires and reducing software expenses.</li>
-          <li>Designed a 3-table data collection and processing system for patient data statistics required by Agency for Healthcare Administration and the Florida Department of Health, resulting in a 50% increase in reporting efficiency.  (Microsoft 365-Access, SQL) </li>
-          <li>Collaborated with the owner to create new services for the patients based on patient requirements, adding value to patient care, resulting in a 26% increase in revenue in two years.</li>
+          <li>Designed and implemented a 3-table data collection system for healthcare statistics in a HIPAA-compliant environment, boosting reporting efficiency by 50%. (MS Access, SQL)</li>
+          <li>Developed online patient registration forms, slashing data entry by 90% and streamlining reporting processes.</li>
+          <li>Planned, developed, and maintained multiple website iterations, utilizing WordPress, Squarespace, HTML, CSS, Bootstrap, and JavaScript.</li>
+          <li>Implemented organizational systems, leveraging existing or free software and task automation, saving over $15K annually in hiring and software expenses.</li>
+          <li>Collaborated with stakeholders to enhance patient services, resulting in a 26% revenue increase over 2 years.</li>
         </ul>
-        <h4 className='employment'>Web Development Internship | Southwest Florida Regional Tech Partnership | 2017-2019</h4>
+        <h4 className='employment'>Web Development Intern | Southwest Florida Regional Tech Partnership | Sept 2017- Aug 2019</h4>
         <ul>
-          <li>Maintained and updated the website with local tech jobs, resulting in a 60% increase in job postings, enabling job seekers access to more opportunities and improving their chances of employment.</li>
-          <li>Attended job fairs to promote the product, leading to at least a 30% increase in product visibility.</li>
+          <li>Maintained and updated a job search website using WordPress and BlueHost, adding differentiated account login types and access, added a database backup for redundancy, and improved SEO which resulted in a 60% increase in job postings by businesses.</li>
+          <li>Collaborated with a software engineer in a team and attended meetings to gather specifications and requirements.</li>
         </ul>
       </div>
 
