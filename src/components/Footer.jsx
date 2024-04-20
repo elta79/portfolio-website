@@ -5,6 +5,7 @@ import GitHubIcon from '@mui/icons-material/GitHub'
 import '../styles/Footer.css'
 
 function Footer() {
+  const currentYear = new Date().getFullYear()
   return (
     <div className="footer">
         <div className="socialMedia">
@@ -12,7 +13,7 @@ function Footer() {
           <a href='https://github.com/elta79' target='_blank'><GitHubIcon /></a>
           <a href='mailto: elta7679@gmail.com'><EmailIcon /></a> 
         </div>
-        <p> &copy; 2024 emilyarnold</p>
+        <p> &copy; {currentYear} emilyarnold</p>
     </div>
   )
 }

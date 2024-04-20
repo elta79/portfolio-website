@@ -71,7 +71,7 @@ body::-webkit-scrollbar{
 .bio-container{
   display: flex;
   flex-direction: column;
-  padding: 0 30px 20px 30px;
+  padding: 1.25rem;
   text-align: left;
 }
 .bio-info{
@@ -224,7 +224,10 @@ textarea{
 
 @media only screen and (min-width: 300px) and (max-width: 768px) {
   #img-headshot{
-    width: 25%;
+    min-width: 25%;
+  }
+  .intro {
+    justify-content: start;
   }
   .intro h2 {
     font-size: 3.125em;
@@ -249,6 +252,11 @@ textarea{
   .about-container{
     display: grid;
     grid-auto-flow: row;
+    margin:0;
+    padding:0;
+  }
+  .bio-container{
+    padding:0;
   }
   form {
     max-width: 80%;
@@ -343,7 +351,7 @@ textarea{
 
 @media only screen and (min-width: 768px) and (max-width:1024px){
   #img-headshot{
-    width: 25%;
+    min-width: 25%;
   }
   .intro {
     height: 80vh;
