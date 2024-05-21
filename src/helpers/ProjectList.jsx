@@ -5,6 +5,7 @@ import Chores from '/images/chores.png'
 import Placenta from '/images/placenta.png'
 import Portfolio from'/images/portfolio.png'
 import PernToDo from '/images/pernTodo.png'
+import Piano from '/images/piano.png'
 
 export const ProjectList = [
     {
@@ -90,5 +91,19 @@ export const ProjectList = [
         },
         gitLink: 'https://github.com/elta79/pern_todo.git',
         webLink: 'https://youtu.be/f8Q2kbpF0nE'
+    },
+    {
+        key: 7,
+        name: 'Piano Lessons Website',
+        image: Piano,
+        skills: 'JavaScript, React, TailwindCSS, HTML, Vite, Figma',
+        video: 'https://youtube.com/shorts/v6UJsjBfX6U',
+        notes: {
+            objective:'Client needed a basic one page site for customer outreach. They wanted a description of services and a contact form. I wanted to practice using TailwindCSS.', 
+            challenges:'I approached this project with a mobile-first design. I did struggle with some styling that looked different in my IDE vs the real product and was making my page "floaty" when touched, but it ended up being a simple padding fix',
+            learned:'I found some VS Code extensions; Headwind (class sorter) and Tailwind CSS IntelliSense (offers suggestions)that really made Tailwind code visualization easier when the file seemed to be getting bloated.'
+        },
+        gitLink: 'https://github.com/elta79/piano-website',
+        webLink: 'https://lessonsbysparrow.netlify.app'
     }
 ]
