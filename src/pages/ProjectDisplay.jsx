@@ -8,6 +8,7 @@ import ReactPlayer from 'react-player'
 function ProjectDisplay() {
   const { id } = useParams()
   const project = ProjectList[id]
+  
   return (
     <div className='project'>
       <div className='col-01'>        
