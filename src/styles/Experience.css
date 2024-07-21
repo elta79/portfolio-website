@@ -29,14 +29,20 @@ h3{
     
     margin: 0 10%;
 }
-.employment{
-    text-align: left;  
-    background: #dbcebf;
-    padding: 1rem 1rem;  
-}
-ul {
+.company-container{
+    display: flex;
+    flex-direction: column;
     text-align: left;
+
 }
-li {
-    padding: 0.75rem 0;
+.employment-company{
+    font-weight: bold;
+    padding-top: 25px;
+    font-size: 1.25rem;
+}
+.value-to-company{
+    padding: 10px 0 ;
+}
+.value-company{
+    padding-left: 2rem;
 }
