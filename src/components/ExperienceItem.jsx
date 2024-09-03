@@ -13,7 +13,7 @@ function ExperienceItem(){
     }
 
     return(  
-      <div className='parent-container'>
+      <div>
         <div key={experience.key} className='company-container'>
           <div className='employment-company'>{experience.employmentInfo}</div>
           <div className='value-company'>{valToCompany()}</div>

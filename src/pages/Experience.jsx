@@ -9,7 +9,7 @@ function Experience() {
   return (
     <div className='container--experience'>
       
-      <h1 >Experience</h1>
+      <h1>Experience</h1>
       <h2 className='title--name'>Emily Arnold</h2>
       <h3>Front-End Developer</h3>
       

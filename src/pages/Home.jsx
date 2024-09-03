@@ -17,9 +17,11 @@ function Home() {
       .then((result)=> {
         alert("Message sent successfully...")
         console.log('Success')
+        form.current.reset()
       },
       (error)=> {
-        console.log('Error')
+        console.error('Error:', error)
+        alert("There was a problem sending your message. Please try again.")
       }
     )
     form.current.reset()
@@ -45,9 +47,9 @@ function Home() {
         <div className='prompt'>
           
           <p>software developer</p>
-          <a href='https://www.linkedin.com/in/elta7679/' target='_blank'><LinkedInIcon /></a>
-          <a href='https://github.com/elta79' target='_blank'><GitHubIcon /></a>
-          <a href='mailto: elta7679@gmail.com'><EmailIcon /></a>
+          <a href='https://www.linkedin.com/in/elta7679/' target='_blank' rel="noopener noreferrer" aria-label="LinkedIn Profile"><LinkedInIcon /></a>
+          <a href='https://github.com/elta79' target='_blank' rel="noopener noreferrer" aria-label="GitHub Profile"><GitHubIcon /></a>
+          <a href='mailto: elta7679@gmail.com' aria-label="Send Email"><EmailIcon /></a>
         </div>
         
       </div>
@@ -90,30 +92,36 @@ function Home() {
       <div className='contact-container'>
         <h2>Contact</h2>
         <form ref={form} onSubmit={sendEmail}>           
-          <input 
-            type="text" 
-            className="name" 
-            name='name'
-            id="name" 
-            placeholder="Name"
-            required
-          />
-          <input 
-            type="email" 
-            className="email" 
-            name='name'
-            id="email" 
-            placeholder="Email"
-            required
-          />
-          <textarea 
-            className="message" 
-            name='message'
-            id="message" 
-            placeholder="Message"
-            required
-          ></textarea>
-          <button>Submit</button>
+          <label className='label'>
+            <input 
+              type="text" 
+              className="label" 
+              name='name'
+              id="name" 
+              placeholder="Name"
+              required
+            />
+          </label >
+          <label className='label'>
+            <input 
+              type="email" 
+              className="label" 
+              name='email'
+              id="email" 
+              placeholder="Email"
+              required
+            />
+          </label >
+          <label className='label'>
+            <textarea 
+              className="label" 
+              name='message'
+              id="message" 
+              placeholder="Message"
+              required
+            ></textarea>
+          </label>          
+          <button type='submit'>Submit</button>
             
         </form>
       </div>

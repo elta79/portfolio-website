@@ -13,7 +13,7 @@ export const ExperienceList = [
     },
     {
         key: 2,
-        employmentInfo: 'Frontend Developer/Financial Director/IT | Family Birth Services, Inc | 2001-Present',
+        employmentInfo: 'Frontend Developer/Financial Director | Family Birth Services, Inc | 2001-Present',
         project:'',
         addedValue: {
             1: '•	26% revenue increase in < 24 years via launching new patient services',

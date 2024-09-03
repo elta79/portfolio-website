@@ -3,39 +3,43 @@
     height: auto;
     background-color: ivory;
     padding-top: 1rem;
+
 }
-h1 {
+.container--experience h1 {
     color: #4E432F;
-    font-size: 40px;
+    font-size: 4rem;  
+      
 }
 .title--name {
     color: #FB7D3A;
-    font-size: 50px;
+    font-size: 3rem;
+    margin: 1rem 0;
 }
 h3{
     color: #B5B4A6;
-    font-size: 37px;
+    font-size: 2rem;
+    margin: 0;
 }
-.title--employment{
-    font-size: 1.5em;
-}
+
 .education {
     padding: 1rem;
     color: #727167;
 }
 .container--employment{
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;  
+    padding: 0 2rem 3rem 2rem;
+    text-align:left;
+}
+.title--employment{
+    font-size: 1.75rem; 
+    padding-top: 3rem;
 }
 .company-container{
     display: flex;
     flex-direction: column;
-    text-align: left;
-    margin: auto;
 }
-.parent-container{
-    padding: 1.55rem;
-}
+
 .employment-company{
     font-weight: bold;
     padding-top: 25px;
@@ -49,9 +53,9 @@ h3{
 }
 
 @media (min-width: 800px) {
-    .parent-container{
-        display: flex;
-        flex-direction: column;
-        justify-content: left;        
-    }   
+    .container--employment{
+        margin: auto;
+        width: 50rem;
+
+    }
   }
