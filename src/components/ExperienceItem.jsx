@@ -13,11 +13,13 @@ function ExperienceItem(){
     }
 
     return(  
-
-      <div key={experience.key} className='company-container'>
-        <div className='employment-company'>{experience.employmentInfo}</div>
-        <div className='value-company'>{valToCompany()}</div>
-      </div>        
+      <div className='parent-container'>
+        <div key={experience.key} className='company-container'>
+          <div className='employment-company'>{experience.employmentInfo}</div>
+          <div className='value-company'>{valToCompany()}</div>
+        </div>
+      </div>
+              
 
     )
   })

@@ -25,15 +25,16 @@ h3{
 }
 .container--employment{
     display: flex;
-    flex-direction: column;
-    
-    margin: 0 10%;
+    flex-direction: column;    
 }
 .company-container{
     display: flex;
     flex-direction: column;
     text-align: left;
-
+    margin: auto;
+}
+.parent-container{
+    padding: 1.55rem;
 }
 .employment-company{
     font-weight: bold;
@@ -46,3 +47,11 @@ h3{
 .value-company{
     padding-left: 2rem;
 }
+
+@media (min-width: 800px) {
+    .parent-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;        
+    }   
+  }
